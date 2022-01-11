@@ -1,0 +1,29 @@
+body{
+    text-align: center;
+    background-image: url(img/bricks.png);
+    background-size: 40px;
+    touch-action: manipulation;
+    user-select: none;
+    color: #ffffff;
+    cursor: url("img/żyletka.png"), pointer;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    cursor: default;
+}
+
+.shop{
+    background-color: #0000009a;
+    border-radius: 15px;
+    cursor: default;
+}
+
+.counter{
+    font-size: 100px;
+}
+
+.click{
+    -webkit-user-drag: none;
+    width: 500px;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset='utf-8'>
+    <title>Julka Clicker</title>
+    <link rel='stylesheet' type='text/css' href='styles.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1 class="counter" id="counter">0</h1>
+    <h1 class="multiplierCounter" id="multiplierCounter">1</h1>
+    <img class="click", onmousedown="AddPoint()", src="img/Julki.png">
+    <div class="shop">
+        <h1>SKLEP</h1>
+        <h1 title="+1 do mnożnika", onmousedown="BuyMultiplier(100, 1)">Ostrość - 100</h1>
+        <h1 title="+5 do mnożnika", onmousedown="BuyMultiplier(500, 5)">Depresja - 500</h1>
+        <h1 title="+10 do mnożnika", onmousedown="BuyMultiplier(1000, 10)">Twitter - 1000</h1>
+        <h1 title="+10000 do mnożnika", onmousedown="BuyMultiplier(100000, 1000)">Uchodźcy - 100000</h1>
+        <h1 title="+10000  do mnożnika", onmousedown="BuyMultiplier(1000000, 10000)">Aborcja - 1000000</h1>
+    </div>
+    <h1 ondblclick="Reset()">Reset</h1>
+</body>
+</html>
